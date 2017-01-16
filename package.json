@@ -1,0 +1,25 @@
+{
+  "name": "autosalon",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "geocomplete": "^1.7.0",
+    "material-ui": "^0.16.6",
+    "materialize-css": "^0.97.8",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-mounter": "^1.2.0",
+    "react-parallax-component": "^1.0.6",
+    "react-simple-parallax": "^0.2.6",
+    "react-tap-event-plugin": "^2.0.1",
+    "sweetalert-react": "^0.4.6"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

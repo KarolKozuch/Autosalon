@@ -1,0 +1,152 @@
+@import '../node_modules/materialize-css/sass/components/normalize';
+@import '../node_modules/materialize-css/sass/components/color';
+@import '../node_modules/materialize-css/sass/components/mixins';
+@import '../node_modules/materialize-css/sass/components/variables';
+@import '../node_modules/materialize-css/sass/components/typography';
+@import '../node_modules/materialize-css/sass/components/icons-material-design';
+@import '../node_modules/materialize-css/sass/components/global';
+@import '../node_modules/materialize-css/sass/components/grid';
+@import '../node_modules/materialize-css/sass/components/cards';
+@import '../node_modules/materialize-css/sass/components/navbar';
+@import '../node_modules/materialize-css/sass/components/carousel';
+@import '../node_modules/materialize-css/sass/components/preloader';
+@import '../node_modules/materialize-css/sass/components/buttons';
+@import '../node_modules/materialize-css/sass/style';
+
+
+
+body{
+  background-color: #e6e6e6;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v19/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+  .parallax-container {
+  height: 1100px;
+  }
+.second-parallax-container {
+  height: 400px;
+}
+
+
+.main-img {
+  max-height: 200px;
+  max-width: 200px;
+}
+a {
+  color: white;
+}
+.card-title-layout {
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-button {
+  width: 35%;
+  min-width: 250px;
+}
+
+nav ul li a:hover, nav ul li.active {
+  background-color: #f57c00;
+}
+
+.buy-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sell-picture {
+    position: relative;
+    width: 100%;
+  img {
+      display: block;
+      border-radius: 2px 2px 0 0;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+}
+
+.sell-card {
+  display: flex;
+  justify-content: center;
+}
+
+.sell-car-info {
+  display: flex;
+  width: 100%;
+}
+.sell-data {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.sell-title{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.sell-table {
+  height:100%
+}
+.sell-layout {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.sell-button {
+  width: 70%;
+  align-self: baseline;
+}
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+}
+
+.search-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-adress {
+display: flex;
+}
