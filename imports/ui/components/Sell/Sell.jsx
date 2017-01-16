@@ -50,7 +50,6 @@ class Sell extends TrackerReact(React.Component) {
     button(ev)
     {    ev.preventDefault();
         var state=this.state;
-        console.log("cip",Number(state.number));
 
         if(state.name && state.surname && state.city && state.street && state.number && state.mail && state.phoneNumber) {
             if (Number(state.number) && Number(state.phoneNumber))
